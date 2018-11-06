@@ -14,11 +14,13 @@ function theBeatlesPlay(musicianArr, instArr) {
 
 function johnLennonFacts(arr) {
   var lennonFactsArr = [];
+  var i = 0;
 
   while (i < arr.length) {
     var lennonFact = arr[i];
 
     lennonFactsArr.push(lennonFact + '!!!');
+    i++;
   }
 
   return lennonFactsArr;
