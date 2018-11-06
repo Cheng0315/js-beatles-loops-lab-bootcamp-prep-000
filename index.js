@@ -1,4 +1,4 @@
-function theBeatlesPPlay(MusicianArr, instArr) {
+function theBeatlesPlay(MusicianArr, instArr) {
   var resultArr = [];
 
   for (var i = 0; i < musicianArr.length; i++) {
