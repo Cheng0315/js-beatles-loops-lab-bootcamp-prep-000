@@ -12,6 +12,7 @@ function theBeatlesPlay(musicianArr, instArr) {
   return resultArr;
 }
 
+
 function johnLennonFacts(arr) {
   var lennonFactsArr = [];
   var i = 0;
@@ -24,4 +25,16 @@ function johnLennonFacts(arr) {
   }
 
   return lennonFactsArr;
+}
+
+
+function iLoveTheBeatles(n) {
+  var iLoveBeatlesArr = [];
+
+  do {
+    iLoveBeatlesArr.push("I love the Beatles!");
+    n += 1;
+  } while (n < 15);
+
+  return iLoveBeatlesArr;
 }
